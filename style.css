@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body{
+    background-color: white;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: goldenrod;
+    padding-left: 70px; 
+    text-decoration: none;
+
+}
+.form{
+    margin-left: 15px;
+    margin-bottom:45px;
+}
+.text{
+    padding-left: 70px;
+}
+.nav-link{
+    text-decoration: none;
+}
+h1{
+    margin-left: 550px;
+    text-size-adjust: 100px!;
+    text-shadow: 2px 2px blue;
+}
+.fs{
+    font-size: 17px;
+
+}
+.icon{
+
+    margin-bottom: 5px;
+
+    float: left;
+
+    
+
+}
+
+.text{
+    padding: 5px;
+
+    color:   rgb(13, 14, 13);
+
+    min-width: 25px;
+
+    position: absolute;
+}
+
+.margin{
+    border:2px  solid crimson;
+     
+    margin-left: 40px;
+    margin-right:0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:crimson;
+    padding-left: 10px;
+}
+.sec{
+    background-color: blue;
+    background-image: url("");
+}
+h3{
+    color: whitesmoke;
+    padding-left: 400px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+h4{
+    color: whitesmoke;
+    padding-left: 200px;
+}
+.but{
+    background-color: goldenrod;
+    margin-left: 550px;
+    padding-left: 5px;
+    border: 12px solid goldenrod;      
+    margin-bottom: 70px;
+    
+
+
+
+}
+h5{
+    color: whitesmoke;
+    padding-left:  70px;
+}
+a{
+    text-decoration: none;
+}
+.sooi{
+    text-decoration: underline;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.con{
+    margin-left: 150px;
+}
+button{
+    background-color: goldenrod;
+    border: 12px solid goldenrod; 
+}
+footer{
+    background-color: navy;
+    color: white;
+    padding-left: 50px;
+}
+.a{
+
+    text-decoration: none;
+}
+button:hover{
+    color: red;
+}
+.a:hover{
+    color: red;
+}
+
+.news:hover{
+    color: pink;
+    
+}
+div.empty{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    form {left:0px;}
+    to {left: 200px;}
+}
